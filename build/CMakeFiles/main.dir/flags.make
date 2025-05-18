@@ -6,5 +6,5 @@ C_DEFINES =
 
 C_INCLUDES = -I/home/wangfeng/protocol/protocol-stack/./inc
 
-C_FLAGS = -std=gnu11
+C_FLAGS = -g -std=gnu11
 
