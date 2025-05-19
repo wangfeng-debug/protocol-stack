@@ -57,8 +57,8 @@ wangfeng@WF-LOPTOP:~/protocol/protocol-stack$ curl -v example.com
 * 而 `tcpdump` 抓的是某个网卡（如 `eth0`）上的包，而本地代理的流量走 `lo`（回环网卡）或可能根本不经过外网；
 
 * 所以你看不到与 `39.156.66.10` 的真正通信。
-
-
+  
+  
 
 在 `curl` 命令中加上 `--noproxy` 或清除代理环境变量：
 
@@ -66,9 +66,7 @@ wangfeng@WF-LOPTOP:~/protocol/protocol-stack$ curl -v example.com
 
 正常抓取到包写入到`web.pcap`
 
-<img src="file:///C:/Users/86182/Pictures/Typedown/717bd772-5cb6-41d3-9acc-878b1fa054fd.png" title="" alt="717bd772-5cb6-41d3-9acc-878b1fa054fd" style="zoom:80%;">
-
-
+![8190c2a3-a41a-4b21-8224-516f58045e5d](file:///C:/Users/86182/Pictures/Typedown/8190c2a3-a41a-4b21-8224-516f58045e5d.png)
 
 ## 2. 使用wireshark分析包
 
@@ -77,7 +75,3 @@ wangfeng@WF-LOPTOP:~/protocol/protocol-stack$ curl -v example.com
 ```bash
 sudo mv web.pcap /mnt/f/network/pcap
 ```
-
-![8765f8ea-d756-45f4-ae09-21888b9d3aaa](file:///C:/Users/86182/Pictures/Typedown/8765f8ea-d756-45f4-ae09-21888b9d3aaa.png)
-
-
