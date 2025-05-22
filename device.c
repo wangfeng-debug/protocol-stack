@@ -2,6 +2,8 @@
 # include <stdio.h>
 # include <pcap.h>
 #include <string.h>
+# include "hdr.h"
+
 
 void devices_info()
 {
@@ -65,4 +67,14 @@ pcap_if_t *device_find(const char *name){
     pcap_freealldevs(alldevs);
     return NULL;
 
+}
+
+// 
+void device_hander(unsigned char *user, const struct pcap_pkthdr *header, const unsigned char *pkt_data){
+    printf("\nPacket captured: \n");
+    printf("Timestamp: %ld.%ld seconds\n", header->ts.tv_sec, header->ts.tv_usec);        // 数据包的时间戳:捕获时间
+    printf("Packet Length: %d\n", header->len);
+
+    Eth_II_hdr *eth_ii_hdr  = eth_ii_parse(pkt_data);
+    eth_ii_print(eth_ii_hdr);
 }

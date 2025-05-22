@@ -177,6 +177,30 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.c.s
 .PHONY : main.c.s
 
+prtc/ethii.o: prtc/ethii.c.o
+.PHONY : prtc/ethii.o
+
+# target to build an object file
+prtc/ethii.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/prtc/ethii.c.o
+.PHONY : prtc/ethii.c.o
+
+prtc/ethii.i: prtc/ethii.c.i
+.PHONY : prtc/ethii.i
+
+# target to preprocess a source file
+prtc/ethii.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/prtc/ethii.c.i
+.PHONY : prtc/ethii.c.i
+
+prtc/ethii.s: prtc/ethii.c.s
+.PHONY : prtc/ethii.s
+
+# target to generate assembly for a file
+prtc/ethii.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/prtc/ethii.c.s
+.PHONY : prtc/ethii.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -192,6 +216,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... prtc/ethii.o"
+	@echo "... prtc/ethii.i"
+	@echo "... prtc/ethii.s"
 .PHONY : help
 
 

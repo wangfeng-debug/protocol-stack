@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "hdr.h": "c",
+        "pcap.h": "c"
+    }
+}

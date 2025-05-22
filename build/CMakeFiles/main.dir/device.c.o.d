@@ -74,4 +74,5 @@ CMakeFiles/main.dir/device.c.o: \
  /usr/include/pcap/bpf.h /usr/include/pcap/dlt.h /usr/include/string.h \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
- /usr/include/strings.h
+ /usr/include/strings.h \
+ /home/wangfeng/protocol/protocol-stack/./inc/hdr.h

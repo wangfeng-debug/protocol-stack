@@ -5,5 +5,6 @@
 
 void devices_info();
 pcap_if_t *device_find();
+void device_hander();
 
 #endif
