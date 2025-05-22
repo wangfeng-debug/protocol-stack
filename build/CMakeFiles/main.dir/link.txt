@@ -1,1 +1,1 @@
-/usr/bin/cc CMakeFiles/main.dir/main.c.o CMakeFiles/main.dir/device.c.o -o main  -lpcap 
+/usr/bin/cc -g CMakeFiles/main.dir/main.c.o CMakeFiles/main.dir/device.c.o CMakeFiles/main.dir/prtc/ethii.c.o -o main  -lpcap 

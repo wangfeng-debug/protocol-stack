@@ -71,4 +71,8 @@ CMakeFiles/main.dir/device.c.o: \
  /usr/include/netdb.h /usr/include/netinet/in.h \
  /usr/include/x86_64-linux-gnu/bits/in.h /usr/include/rpc/netdb.h \
  /usr/include/x86_64-linux-gnu/bits/netdb.h /usr/include/arpa/inet.h \
- /usr/include/pcap/bpf.h /usr/include/pcap/dlt.h
+ /usr/include/pcap/bpf.h /usr/include/pcap/dlt.h /usr/include/string.h \
+ /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+ /usr/include/strings.h \
+ /home/wangfeng/protocol/protocol-stack/./inc/hdr.h

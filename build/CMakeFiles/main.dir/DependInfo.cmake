@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/wangfeng/protocol/protocol-stack/device.c" "CMakeFiles/main.dir/device.c.o" "gcc" "CMakeFiles/main.dir/device.c.o.d"
   "/home/wangfeng/protocol/protocol-stack/main.c" "CMakeFiles/main.dir/main.c.o" "gcc" "CMakeFiles/main.dir/main.c.o.d"
+  "/home/wangfeng/protocol/protocol-stack/prtc/ethii.c" "CMakeFiles/main.dir/prtc/ethii.c.o" "gcc" "CMakeFiles/main.dir/prtc/ethii.c.o.d"
   )
 
 # Targets to which this target links.
